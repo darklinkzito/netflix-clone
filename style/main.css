@@ -11,16 +11,15 @@
 
 /* Base*/
 
-body {
-    background: var(--preta);
+.base {
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    background-color: #141414;
 }
 
-header .container {
+header .container{
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 header .logo {
@@ -29,16 +28,9 @@ header .logo {
     margin-right: 20px;
 }
 
-header nav a {
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
+a .nav-link{
+    color: white;
 }
-
-header nav a:hover {
-    color: #FFF;
-}
-
 /* Filme Principal*/
 
 .filme-principal {
@@ -57,12 +49,14 @@ header nav a:hover {
 .filme-principal .descricao {
     margin-top: 10px;
     margin-bottom: 30px;
+    color: #FFF;
 }
 
 .filme-principal .titulo {
     margin-top: 15%;
     font-size: 50px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #FFF;
 }
 
 .botao {
@@ -82,26 +76,14 @@ header nav a:hover {
     color: black;
 }
 
-.container {
-    margin-left: 20px;
-}
-
-.filme-principal .container {
-    width: 60%;
-}
-
 .fa-play, .fa-circle-info {
     margin-right: 10px;
 }
 
-.box-filme {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
 .carrosel-filmes {
     margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
 }
 
 .item {
